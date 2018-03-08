@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomActiveCell Snapshot with false value 1`] = `
+<FontIcon
+  className="material-icons"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  clear
+</FontIcon>
+`;
+
+exports[`CustomActiveCell Snapshot with true value 1`] = `
+<FontIcon
+  className="material-icons"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  done
+</FontIcon>
+`;

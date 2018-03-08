@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Shallow snapshot 1`] = `
+<footer
+  className="readmin-footer"
+>
+  <FooterNavgition />
+  <p>
+    Copyright © ArtWork 2017
+  </p>
+</footer>
+`;

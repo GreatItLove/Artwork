@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomPageDropdown Snapshot of CustomPageDropdown with props 1`] = `
+<div>
+  <div
+    className="someClass"
+    style={Object {}}
+  >
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      1
+    </div>
+    <div
+      className="item active"
+      onClick={[Function]}
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+    >
+      2
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      3
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      4
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      5
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      6
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      7
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      8
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      9
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      10
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomPageDropdown Snapshot of CustomPageDropdown without props 1`] = `
+<div>
+  <div>
+    <div
+      className="item"
+      onClick={[Function]}
+      style={null}
+    >
+      1
+    </div>
+  </div>
+</div>
+`;

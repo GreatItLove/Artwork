@@ -1,0 +1,149 @@
+$auth-box-width: 315px;
+.login-info-font {
+  font-size: 13px;
+  font-weight: $font-weight-base;
+  padding-left: $padding-small / 2;
+  color: $font-color-base;
+  opacity: .7;
+}
+.login-page {
+  padding-top: $padding-large * 2 ;
+  background: linear-gradient(170deg,#597990 40%,#db8e5a);
+  min-height:100vh;
+  color: $font-color-white;
+  img {
+    max-width: 215px;
+    padding-bottom: $padding-large * 2 + $padding-small;
+  }
+  h5, h1, a {
+    color: $font-color-white;
+    font-weight: normal;
+  }
+  .bottom-link {
+    font-size: $font-size-base / 1.3;
+    margin-top: -$margin-small;
+  }
+  hr {
+    margin-top: $margin-large * 3;
+    border-top: 1px solid #ccc;
+  }
+
+}
+
+.auth-login-system-message {
+  max-width: $auth-box-width;
+  width: inherit;
+}
+
+.auth-login-wrapper {
+  max-width: $auth-box-width;
+  width: inherit;
+  form {
+    margin-top: -$margin-small;
+  }
+  span {
+    @extend .login-info-font;
+    text-align: justify;
+  }
+}
+
+.auth-login-fields {
+  position: relative;
+  background: $color-bg-white;
+  padding: $padding-medium - 3 $padding-large + $padding-5;
+  border-radius: $border-radius * 2;
+  @include an-box-shadow;
+
+  h4 {
+    text-align: center;
+    color: #67a4c0;
+    font-weight: normal;
+    i {
+      font-size: $font-size-h1 * 2;
+    }
+    &.title-404 {
+      font-size: $font-size-h1 * 3;
+
+    }
+  }
+
+  .links {
+    text-align: center;
+    a, span {
+      @extend .login-info-font;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .login-page {
+    background: linear-gradient(#59798f 65%,#ff944c);
+    padding-top: $padding-large / 2;
+    .sm-center {
+      text-align: center;
+    }
+    .sm-flex-center {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      max-width: 100%;
+      width: $auth-box-width;
+      height: auto;
+      padding-bottom: $padding-5*2;
+    }
+    .bottom-link {
+      font-size: $font-size-base;
+      margin-top: 0;
+    }
+  }
+}
+
+
+
+.login-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  background: $color-primary;
+  margin: 0 auto;
+  margin-top: $padding-large * 2;
+  margin-bottom: $padding-large * 2;
+}
+
+.login-fields {
+  position: relative;
+  width: 100%;
+  background: $color-bg-white;
+  padding: $padding-base * 3;
+  top: $padding-large;
+  right: $padding-large;
+  @include an-box-shadow;
+
+  h3 {
+    a {
+      font-size: 13px;
+      font-weight: $font-weight-base;
+      padding-left: $padding-large;
+      color: $font-color-base;
+      opacity: .7;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+    i {
+      font-size: $font-size-h1 * 2;
+    }
+    &.title-404 {
+      font-size: $font-size-h1 * 3;
+
+    }
+  }
+}
+

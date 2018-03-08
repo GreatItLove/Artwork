@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarketingItem Snapshot of MarketingItem 1`] = `
+<ListItem
+  autoGenerateNestedIndicator={true}
+  containerElement="span"
+  disableKeyboardFocus={false}
+  disabled={false}
+  initiallyOpen={false}
+  innerDivStyle={Object {}}
+  insetChildren={false}
+  leftIcon={
+    <i
+      className="material-icons"
+    >
+      public
+    </i>
+  }
+  nestedItems={
+    Array [
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement={
+            <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                exact={true}
+                to="/marketing"
+            />
+        }
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        innerDivStyle={Object {}}
+        insetChildren={false}
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="Bulk Email"
+        primaryTogglesNestedList={false}
+        secondaryTextLines={1}
+    />,
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        innerDivStyle={Object {}}
+        insetChildren={false}
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="Search Engine Optimization"
+        primaryTogglesNestedList={false}
+        secondaryTextLines={1}
+    />,
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        innerDivStyle={Object {}}
+        insetChildren={false}
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="Website Visitors"
+        primaryTogglesNestedList={false}
+        secondaryTextLines={1}
+    />,
+    ]
+  }
+  nestedLevel={0}
+  onKeyboardFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onNestedListToggle={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  open={null}
+  primaryText="Marketing"
+  primaryTogglesNestedList={true}
+  secondaryTextLines={1}
+/>
+`;

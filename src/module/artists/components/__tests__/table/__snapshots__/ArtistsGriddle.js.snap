@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArtistsGriddle Snapshot of without data 1`] = `
+<div>
+  <Griddle
+    components={
+      Object {
+        "Filter": [Function],
+        "Layout": [Function],
+        "NextButton": [Function],
+        "PageDropdown": [Function],
+        "PreviousButton": [Function],
+        "SettingsWrapper": [Function],
+        "Table": [Function],
+      }
+    }
+    data={Array []}
+    events={
+      Object {
+        "onFilter": [Function],
+        "onGetPage": [Function],
+        "onNext": [Function],
+        "onPrevious": [Function],
+        "onSort": [Function],
+      }
+    }
+    pageProperties={
+      Object {
+        "currentPage": 0,
+        "pageSize": undefined,
+        "recordCount": undefined,
+      }
+    }
+    styleConfig={
+      Object {
+        "classNames": Object {
+          "Table": "table table-hover",
+        },
+      }
+    }
+  >
+    <RowDefinition>
+      <ColumnDefinition
+        customComponent={[Function]}
+        extraData={
+          Object {
+            "appDispatch": [Function],
+          }
+        }
+        id="check"
+        title=" "
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="firstName"
+        title="NAME"
+      />
+      <ColumnDefinition
+        id="artworkCount"
+        title="ART"
+      />
+      <ColumnDefinition
+        id="icon"
+        title="ICON"
+      />
+      <ColumnDefinition
+        id="genre"
+        title="GENRE"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="commission"
+        title="CMSN"
+      />
+      <ColumnDefinition
+        id="taxNumber"
+        title="TAX ID"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="featured"
+        title="FEATURED"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="active"
+        title="ACTIVE"
+      />
+    </RowDefinition>
+  </Griddle>
+  <div
+    className="div-center show-per-page"
+  >
+    <text
+      className="div-center"
+      style={
+        Object {
+          "position": "relative",
+          "top": "3px",
+        }
+      }
+    >
+      Show
+    </text>
+     
+    <Connect(CustomShowPerPage) />
+    <text
+      className="div-center"
+      style={
+        Object {
+          "left": "-30px",
+          "position": "relative",
+          "top": "3px",
+        }
+      }
+    >
+      Per Page
+    </text>
+  </div>
+  <Connect(AddArtistDialog) />
+</div>
+`;
+
+exports[`ArtistsGriddle Snapshot with data 1`] = `
+<div>
+  <Griddle
+    components={
+      Object {
+        "Filter": [Function],
+        "Layout": [Function],
+        "NextButton": [Function],
+        "PageDropdown": [Function],
+        "PreviousButton": [Function],
+        "SettingsWrapper": [Function],
+        "Table": [Function],
+      }
+    }
+    data={
+      Array [
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "demo@artworkmanager.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 6733,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "anuj.gakhar@gmail.com",
+          "fullName": "Anuj Gakhar",
+          "lastLogin": "1505204346",
+          "userId": 6064,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "demogallery@artworkmanager.com",
+          "fullName": "webmaster",
+          "lastLogin": "1505204346",
+          "userId": 9,
+          "userLevel": "4         ",
+          "userType": "Webmaster           ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "ahershey79@yahoo.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 6757,
+          "userLevel": "4         ",
+          "userType": "SA                  ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "hello@managedartwork.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 4975,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "ellen@ellenmalloy.com",
+          "fullName": "Ellen Malloy",
+          "lastLogin": "1505204346",
+          "userId": 6796,
+          "userLevel": "4         ",
+          "userType": "Staff               ",
+        },
+        Object {
+          "active": false,
+          "checked": false,
+          "email": "robin@galleryondivision.com",
+          "fullName": "Robin Cairl",
+          "lastLogin": "1505204346",
+          "userId": 6795,
+          "userLevel": "3         ",
+          "userType": "Gallery             ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "andrew@managedartwork.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 6748,
+          "userLevel": "3         ",
+          "userType": "Gallery             ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "grend500@gmail.com",
+          "fullName": "Yemi",
+          "lastLogin": "1505204346",
+          "userId": 6761,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "rumrunner1@gmail.com",
+          "fullName": "Dan Sweet",
+          "lastLogin": "1505204346",
+          "userId": 5260,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "checked": false,
+          "email": "karl@managedartwork.com",
+          "fullName": "Karl Wiese",
+          "lastLogin": "1505204346",
+          "userId": 5455,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+      ]
+    }
+    events={
+      Object {
+        "onFilter": [Function],
+        "onGetPage": [Function],
+        "onNext": [Function],
+        "onPrevious": [Function],
+        "onSort": [Function],
+      }
+    }
+    pageProperties={
+      Object {
+        "currentPage": 0,
+        "pageSize": undefined,
+        "recordCount": undefined,
+      }
+    }
+    styleConfig={
+      Object {
+        "classNames": Object {
+          "Table": "table table-hover",
+        },
+      }
+    }
+  >
+    <RowDefinition>
+      <ColumnDefinition
+        customComponent={[Function]}
+        extraData={
+          Object {
+            "appDispatch": [Function],
+          }
+        }
+        id="check"
+        title=" "
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="firstName"
+        title="NAME"
+      />
+      <ColumnDefinition
+        id="artworkCount"
+        title="ART"
+      />
+      <ColumnDefinition
+        id="icon"
+        title="ICON"
+      />
+      <ColumnDefinition
+        id="genre"
+        title="GENRE"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="commission"
+        title="CMSN"
+      />
+      <ColumnDefinition
+        id="taxNumber"
+        title="TAX ID"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="featured"
+        title="FEATURED"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="active"
+        title="ACTIVE"
+      />
+    </RowDefinition>
+  </Griddle>
+  <div
+    className="div-center show-per-page"
+  >
+    <text
+      className="div-center"
+      style={
+        Object {
+          "position": "relative",
+          "top": "3px",
+        }
+      }
+    >
+      Show
+    </text>
+     
+    <Connect(CustomShowPerPage) />
+    <text
+      className="div-center"
+      style={
+        Object {
+          "left": "-30px",
+          "position": "relative",
+          "top": "3px",
+        }
+      }
+    >
+      Per Page
+    </text>
+  </div>
+  <Connect(AddArtistDialog) />
+</div>
+`;

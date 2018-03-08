@@ -1,0 +1,80 @@
+// Color
+$white: #fff;
+$black: #000;
+$mat-black: #263238;
+$light-black: #38474f;
+
+
+
+$color-primary: #258df2;
+$color-primary-hover: darken($color-primary, 10%);
+$color-brand-blue:#1e6291;
+$color-brand-blue-light:#94c0d3;
+$color-brand-grey:#e7e4d8;
+$color-brand-orange: #e99e37;
+$color-bg-brand-grey: #f2f2f2;
+$color-secondary: #40c741;
+$color-background-white-blue: #F0F5F8;
+
+$color-body-bg: $color-bg-brand-grey;
+$color-bg-white: #fff;
+$color-border-filter : #72ACC5;
+
+$color-header-bg:$color-brand-blue;
+
+$color-warning: #fdba2c;
+
+$color-danger: #e64043;
+
+$color-green: #2bcdbd;
+$color-purple: #e884f9;
+
+
+// Font family
+$font-family-primary: 'Roboto', sans-serif;
+
+// Font color
+$font-color-base: #2a3134;
+$font-color-light: lighten($font-color-base, 25%);
+$font-color-lighter: lighten($font-color-base, 45%);
+$font-color-grey : #8F9082;
+
+$font-color-white: $white;
+$font-color-brand-blue: $color-brand-blue;
+$font-color-brand-orange: $color-brand-orange;
+$font-color-hyperlink : #66A4C0;
+
+// Font weight
+$font-weight-light: 300;
+$font-weight-base: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+$base-font-size : 14px;
+
+
+// Padding
+$padding-base: 15px;
+$padding-small: 10px;
+$padding-medium: 20px;
+$padding-large: 30px;
+$padding-5: 5px;
+$padding-0: 0px;
+
+//  Margin
+$margin-base: 15px;
+$margin-small: 10px;
+$margin-medium: 20px;
+$margin-large: 30px;
+
+
+// Some width and height
+$header-icon-width: 35px;
+$notification-width: 300px;
+$noti-icon-width: 30px;
+$circle-icon-width: 50px;
+
+// Border radius
+$border-radius: 3px;
+$border-component-radius : 6px;
+

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of Custom Show Per Page CustomShowPerPage 1`] = `
+<provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <CustomShowPerPage
+    appDispatch={[Function]}
+    pagination={
+      Object {
+        "currentPage": 1,
+        "recordsPerPage": "10",
+        "totalRecordCount": 0,
+      }
+    }
+    searchFilter={
+      Object {
+        "limit": 10,
+        "search": "test",
+      }
+    }
+  />
+</provider>
+`;

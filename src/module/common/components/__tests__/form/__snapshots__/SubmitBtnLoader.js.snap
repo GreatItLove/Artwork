@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitBtnLoader SubmitBtnLoader snapshot btn 1`] = `
+<RaisedButton
+  disabled={false}
+  fullWidth={true}
+  label="some label"
+  labelPosition="after"
+  primary={true}
+  secondary={false}
+  type="submit"
+/>
+`;
+
+exports[`SubmitBtnLoader SubmitBtnLoader snapshot loading 1`] = `
+<RefreshIndicator
+  left={0}
+  percentage={0}
+  size={40}
+  status="loading"
+  style={
+    Object {
+      "margin": "0 auto",
+      "position": "relative",
+    }
+  }
+  top={0}
+/>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsTemplate Snapshot of NewsTemplate when error  1`] = `
+<div>
+  err
+</div>
+`;
+
+exports[`NewsTemplate Snapshot of NewsTemplate when newsLoading is false  1`] = `
+<div>
+  <h5>
+    July 06, 2017 2:00 AM
+  </h5>
+  <h1>
+    HOW TO | Create a Consignment Agreement
+  </h1>
+  <p>
+    Click here to learn how to create Consignment Agreements for your Artists and Consignors.  Choose your settings, click a few boxes, and in little time have agreements ready for print or email...
+  </p>
+  <p>
+    <a
+      href="/"
+    >
+       Read more &gt;
+    </a>
+  </p>
+</div>
+`;
+
+exports[`NewsTemplate Snapshot of NewsTemplate when newsLoading is true 1`] = `
+<RefreshIndicator
+  left={0}
+  percentage={0}
+  size={40}
+  status="loading"
+  style={
+    Object {
+      "margin": "0 auto",
+      "position": "relative",
+    }
+  }
+  top={0}
+/>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomNextButton Snapshot of CustomNextButton with has next 1`] = `
+<div
+  className="someClass"
+  onClick={[Function]}
+  style={Object {}}
+>
+  <i
+    className="material-icons"
+    style={
+      Object {
+        "fontSize": "1rem",
+      }
+    }
+  >
+    keyboard_arrow_right
+  </i>
+</div>
+`;
+
+exports[`CustomNextButton Snapshot of CustomNextButton without has next 1`] = `null`;

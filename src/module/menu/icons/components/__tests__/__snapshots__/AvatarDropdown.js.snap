@@ -1,0 +1,1073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarDropdown Shallow snapshot 1`] = `
+<div>
+  <IconMenu
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    animated={true}
+    iconButtonElement={
+      <IconButton
+        disableTouchRipple={false}
+        disabled={false}
+        iconStyle={Object {}}
+        tooltipPosition="bottom-center"
+        touch={false}
+      >
+        <Avatar
+          size={35}
+          src="http://www.artworkmanagerdemo.com/images/somelogo.png"
+        />
+      </IconButton>
+    }
+    multiple={false}
+    onClick={[Function]}
+    onItemTouchTap={[Function]}
+    onKeyboardFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onRequestChange={[Function]}
+    open={false}
+    style={
+      Object {
+        "zIndex": "1500",
+      }
+    }
+    targetOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+    touchTapCloseDelay={200}
+    useLayerForClickAway={true}
+  >
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          monetization_on
+        </i>
+      }
+      primaryText="Billing"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      containerElement={
+        <Link
+          replace={false}
+          to="/users"
+        />
+      }
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          account_box
+        </i>
+      }
+      primaryText="User Accounts"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      containerElement={
+        <Link
+          replace={false}
+          to="/account/edit"
+        />
+      }
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          lock
+        </i>
+      }
+      primaryText="Edit Account"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          contacts
+        </i>
+      }
+      primaryText="Site Administrator"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          settings
+        </i>
+      }
+      menuItems={
+        Array [
+          <MenuItem
+            anchorOrigin={
+                Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            menuItems={
+                Array [
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Technical"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Website"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Design"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Logos & Images"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Social Networks"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Web Locations"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Site Administrator"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Images Size & Logos"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                  ]
+            }
+            primaryText="Website"
+            targetOrigin={
+                Object {
+                    "horizontal": "left",
+                    "vertical": "top",
+                  }
+            }
+        />,
+          <MenuItem
+            anchorOrigin={
+                Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="Invoice/Ecommerce"
+            targetOrigin={
+                Object {
+                    "horizontal": "left",
+                    "vertical": "top",
+                  }
+            }
+        />,
+          <MenuItem
+            anchorOrigin={
+                Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            menuItems={
+                Array [
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Adding Artwork"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Search Results"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Tear Sheets"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="COA Settings"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Do What Upon Sold"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                  ]
+            }
+            primaryText="Artwork"
+            targetOrigin={
+                Object {
+                    "horizontal": "left",
+                    "vertical": "top",
+                  }
+            }
+        />,
+          <MenuItem
+            anchorOrigin={
+                Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="Adding Contacts"
+            targetOrigin={
+                Object {
+                    "horizontal": "left",
+                    "vertical": "top",
+                  }
+            }
+        />,
+          <MenuItem
+            anchorOrigin={
+                Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="Consignments"
+            targetOrigin={
+                Object {
+                    "horizontal": "left",
+                    "vertical": "top",
+                  }
+            }
+        />,
+          <MenuItem
+            anchorOrigin={
+                Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            menuItems={
+                Array [
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Edit Prices"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Edit Ship Charges"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Edit Ship Costs"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Edit Sold/Active/Sequence"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Display/Hide Prices/Ecom"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Edit Wizard - Multipurpose"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Artwork Edit Filter"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Medium"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Media"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Collection"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Location"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Year"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Dimensions"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Prices"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Illegal Pics"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Images & Files"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Customer Types"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Categories"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Clean Cities"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Define Qualities List"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Resubscribe"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                    <MenuItem
+                      anchorOrigin={
+                            Object {
+                                  "horizontal": "right",
+                                  "vertical": "top",
+                                }
+                      }
+                      checked={false}
+                      desktop={false}
+                      disabled={false}
+                      focusState="none"
+                      insetChildren={false}
+                      primaryText="Remove Me (Unsubscribe)"
+                      targetOrigin={
+                            Object {
+                                  "horizontal": "left",
+                                  "vertical": "top",
+                                }
+                      }
+                />,
+                  ]
+            }
+            primaryText="Data Tools"
+            targetOrigin={
+                Object {
+                    "horizontal": "left",
+                    "vertical": "top",
+                  }
+            }
+        />,
+        ]
+      }
+      primaryText="Settings"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <Divider
+      inset={false}
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      containerElement={
+        <Link
+          replace={false}
+          to="/login"
+        />
+      }
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          power_settings_new
+        </i>
+      }
+      onClick={[Function]}
+      primaryText="Sign Out"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+  </IconMenu>
+</div>
+`;

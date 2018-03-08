@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon Add Snapshot of IconAdd 1`] = `
+<Avatar
+  backgroundColor="#e7e4d8"
+  color="#1e6291"
+  icon={<ContentAddCircleOutline />}
+  size={35}
+/>
+`;

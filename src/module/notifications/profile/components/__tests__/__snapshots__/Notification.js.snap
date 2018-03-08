@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Snapshot of Notification when error  1`] = `
+<div>
+  <button
+    className="notification-trigger an-circle-icon-btn notification"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-flash"
+    />
+  </button>
+  <div
+    className="slide-content"
+  >
+    <h6>
+      Latest Activities
+    </h6>
+    <div>
+      err
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Snapshot of Notification when logsLoading is false  1`] = `
+<div>
+  <button
+    className="notification-trigger an-circle-icon-btn notification"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-flash"
+    />
+  </button>
+  <div
+    className="slide-content"
+  >
+    <h6>
+      Latest Activities
+    </h6>
+    <div>
+      <div
+        className="notification-single"
+      >
+        <p
+          className="details"
+        >
+          <span>
+            The user logged-in successfully.
+          </span>
+        </p>
+        <p
+          className="time"
+        >
+          <TimeAgo
+            component="time"
+            date={1507019251000}
+            formatter={[Function]}
+            live={true}
+            maxPeriod={Infinity}
+            minPeriod={0}
+            now={[Function]}
+          />
+        </p>
+      </div>
+      <div
+        className="notification-single"
+      >
+        <p
+          className="details"
+        >
+          <span>
+            The user logged-in successfully.
+          </span>
+        </p>
+        <p
+          className="time"
+        >
+          <TimeAgo
+            component="time"
+            date={1507017081000}
+            formatter={[Function]}
+            live={true}
+            maxPeriod={Infinity}
+            minPeriod={0}
+            now={[Function]}
+          />
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Snapshot of Notification when logsLoading is true 1`] = `
+<div>
+  <button
+    className="notification-trigger an-circle-icon-btn notification"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-flash"
+    />
+  </button>
+  <div
+    className="slide-content"
+  >
+    <h6>
+      Latest Activities
+    </h6>
+    <div
+      style={
+        Object {
+          "left": "45%",
+          "position": "absolute",
+          "top": "30%",
+        }
+      }
+    >
+      <RefreshIndicator
+        left={0}
+        percentage={0}
+        size={40}
+        status="loading"
+        top={0}
+      />
+    </div>
+  </div>
+</div>
+`;

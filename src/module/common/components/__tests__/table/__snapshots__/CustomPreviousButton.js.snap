@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomPreviousButton Snapshot of CustomPreviousButton with hasPrevious 1`] = `
+<div
+  className="someClass"
+  onClick={[Function]}
+  style={Object {}}
+>
+  <i
+    className="material-icons"
+    style={
+      Object {
+        "fontSize": "1rem",
+      }
+    }
+  >
+    keyboard_arrow_left
+  </i>
+</div>
+`;
+
+exports[`CustomPreviousButton Snapshot of CustomPreviousButton without hasPrevious 1`] = `null`;

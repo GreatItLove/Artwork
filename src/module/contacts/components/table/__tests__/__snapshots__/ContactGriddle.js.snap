@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Griddle  Snapshot with data 1`] = `
+<div>
+  <Griddle
+    components={
+      Object {
+        "Filter": [Function],
+        "NextButton": [Function],
+        "PageDropdown": [Function],
+        "PreviousButton": [Function],
+        "SettingsWrapper": [Function],
+        "Table": [Function],
+      }
+    }
+    data={
+      Array [
+        Object {
+          "active": true,
+          "address": "",
+          "address2": "",
+          "city": "",
+          "country": "",
+          "customerType": "",
+          "email": "vangoghbuptert@outlook.com",
+          "firstName": "",
+          "lastName": "",
+          "middleName": "",
+          "newType": "",
+          "phone": "",
+          "state": "",
+          "zipCode": "",
+        },
+      ]
+    }
+    events={
+      Object {
+        "onFilter": [Function],
+        "onGetPage": [Function],
+        "onNext": [Function],
+        "onPrevious": [Function],
+      }
+    }
+    pageProperties={
+      Object {
+        "currentPage": 1,
+        "pageSize": 1,
+        "recordCount": 0,
+      }
+    }
+    styleConfig={
+      Object {
+        "classNames": Object {
+          "Table": "table table-hover",
+        },
+      }
+    }
+  >
+    <RowDefinition>
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="firstname"
+      />
+      <ColumnDefinition
+        id="email"
+      />
+      <ColumnDefinition
+        id="contactPhone"
+      />
+      <ColumnDefinition
+        id="address"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="emailList"
+      />
+      <ColumnDefinition
+        id="contactType"
+      />
+      <ColumnDefinition
+        id="marketing"
+      />
+      <ColumnDefinition
+        id="grossSpent"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="qb"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="importDate"
+      />
+    </RowDefinition>
+  </Griddle>
+  <div
+    className="div-center show-per-page"
+  >
+    <text
+      className="div-center"
+      style={
+        Object {
+          "position": "relative",
+          "top": "8px",
+        }
+      }
+    >
+      Show
+    </text>
+     
+    <CustomShowPerPage
+      appDispatch={[Function]}
+      fetchRequest={[Function]}
+      list={
+        Array [
+          Object {
+            "active": true,
+            "address": "",
+            "address2": "",
+            "city": "",
+            "country": "",
+            "customerType": "",
+            "email": "vangoghbuptert@outlook.com",
+            "firstName": "",
+            "lastName": "",
+            "middleName": "",
+            "newType": "",
+            "phone": "",
+            "state": "",
+            "zipCode": "",
+          },
+        ]
+      }
+      pagination={
+        Object {
+          "currentPage": 1,
+          "recordsPerPage": 1,
+          "totalRecordCount": 0,
+        }
+      }
+      t={[Function]}
+    />
+    <text
+      className="div-center"
+      style={
+        Object {
+          "left": "-25px",
+          "position": "relative",
+          "top": "8px",
+        }
+      }
+    >
+      per Page
+    </text>
+  </div>
+  <Connect(AddContactDialog) />
+</div>
+`;
+
+exports[`Contact Griddle  Snapshot without data 1`] = `
+<div>
+  <Griddle
+    components={
+      Object {
+        "Filter": [Function],
+        "NextButton": [Function],
+        "PageDropdown": [Function],
+        "PreviousButton": [Function],
+        "SettingsWrapper": [Function],
+        "Table": [Function],
+      }
+    }
+    data={Array []}
+    events={
+      Object {
+        "onFilter": [Function],
+        "onGetPage": [Function],
+        "onNext": [Function],
+        "onPrevious": [Function],
+      }
+    }
+    pageProperties={
+      Object {
+        "currentPage": 1,
+        "pageSize": 1,
+        "recordCount": 0,
+      }
+    }
+    styleConfig={
+      Object {
+        "classNames": Object {
+          "Table": "table table-hover",
+        },
+      }
+    }
+  >
+    <RowDefinition>
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="firstname"
+      />
+      <ColumnDefinition
+        id="email"
+      />
+      <ColumnDefinition
+        id="contactPhone"
+      />
+      <ColumnDefinition
+        id="address"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="emailList"
+      />
+      <ColumnDefinition
+        id="contactType"
+      />
+      <ColumnDefinition
+        id="marketing"
+      />
+      <ColumnDefinition
+        id="grossSpent"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="qb"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="importDate"
+      />
+    </RowDefinition>
+  </Griddle>
+  <div
+    className="div-center show-per-page"
+  >
+    <text
+      className="div-center"
+      style={
+        Object {
+          "position": "relative",
+          "top": "8px",
+        }
+      }
+    >
+      Show
+    </text>
+     
+    <CustomShowPerPage
+      appDispatch={[Function]}
+      fetchRequest={[Function]}
+      list={Array []}
+      pagination={
+        Object {
+          "currentPage": 1,
+          "recordsPerPage": 1,
+          "totalRecordCount": 0,
+        }
+      }
+      t={[Function]}
+    />
+    <text
+      className="div-center"
+      style={
+        Object {
+          "left": "-25px",
+          "position": "relative",
+          "top": "8px",
+        }
+      }
+    >
+      per Page
+    </text>
+  </div>
+  <Connect(AddContactDialog) />
+</div>
+`;

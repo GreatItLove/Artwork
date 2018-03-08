@@ -1,0 +1,34 @@
+.readmin-form {
+  position: relative;
+  width: 100%;
+
+  &.inline {
+    @media (max-width: 560px) {
+      .inline-btn {
+        margin-top: $margin-medium;
+      }
+
+    }
+  }
+
+  input {
+    width: 100%;
+  }
+  label {
+    margin: 0 !important;
+  }
+
+  .align-items-center {
+
+  }
+  &.users-form {
+    label {
+      color: $font-color-brand-blue !important;
+    }
+    .cancel-link {
+      color: $font-color-brand-orange;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+
+  .input-group {
+    position: relative;
+    display: flex;
+    width: 100%; }
+    .input-group .form-control, .input-group .daterangepicker .input-mini, .daterangepicker .input-group .input-mini, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control.direction-up {
+      position: relative;
+      z-index: 2;
+      flex: 1 1 auto;
+      width: 1%;
+      margin-bottom: 0; }
+      .input-group .form-control:focus, .input-group .daterangepicker .input-mini:focus, .daterangepicker .input-group .input-mini:focus, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control:focus, .input-group .form-control:active, .input-group .daterangepicker .input-mini:active, .daterangepicker .input-group .input-mini:active, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control:active, .input-group .form-control:hover, .input-group .daterangepicker .input-mini:hover, .daterangepicker .input-group .input-mini:hover, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control:hover {
+        z-index: 3; }
+  
+  .input-group-addon,
+  .input-group-btn,
+  .input-group .form-control,
+  .input-group .daterangepicker .input-mini, .daterangepicker
+  .input-group .input-mini, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control.direction-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  
+  .input-group-addon,
+  .input-group-btn {
+    white-space: nowrap;
+    vertical-align: middle; }
+  
+  .input-group-addon {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #55595c;
+    text-align: center;
+    background-color: #d1d4d7;
+    border: 1px solid rgba(0, 0, 0, 0.15); }
+    .input-group-addon.form-control-sm, .daterangepicker .input-group-sm > .input-group-addon.input-mini, .input-group > .ui-select-bootstrap.input-group-sm > input.input-group-addon.ui-select-search.form-control,
+    .input-group-sm > .input-group-addon,
+    .input-group-sm > .input-group-btn > .input-group-addon.btn, .fc
+    .input-group-sm > .input-group-btn > button.input-group-addon {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem; }
+    .input-group-addon.form-control-lg, .daterangepicker .input-group-lg > .input-group-addon.input-mini, .input-group > .ui-select-bootstrap.input-group-lg > input.input-group-addon.ui-select-search.form-control,
+    .input-group-lg > .input-group-addon,
+    .input-group-lg > .input-group-btn > .input-group-addon.btn, .fc
+    .input-group-lg > .input-group-btn > button.input-group-addon {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.25rem; }
+    .input-group-addon input[type="radio"],
+    .input-group-addon input[type="checkbox"] {
+      margin-top: 0; }
+  
+  .input-group-addon:not(:last-child) {
+    border-right: 0; }
+  
+  .form-control + .input-group-addon:not(:first-child), .daterangepicker .input-mini + .input-group-addon:not(:first-child), .input-group > .ui-select-bootstrap > input.ui-select-search.form-control + .input-group-addon:not(:first-child) {
+    border-left: 0; }
+  
+  .input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap; }
+    .input-group-btn > .btn, .fc .input-group-btn > button {
+      position: relative;
+      flex: 1; }
+      .input-group-btn > .btn + .btn, .fc .input-group-btn > button + .btn, .fc .input-group-btn > .btn + button, .fc .input-group-btn > button + button {
+        margin-left: -1px; }
+      .input-group-btn > .btn:focus, .fc .input-group-btn > button:focus, .input-group-btn > .btn:active, .fc .input-group-btn > button:active, .input-group-btn > .btn:hover, .fc .input-group-btn > button:hover {
+        z-index: 3; }
+    .input-group-btn:not(:last-child) > .btn, .fc .input-group-btn:not(:last-child) > button,
+    .input-group-btn:not(:last-child) > .btn-group,
+    .input-group-btn:not(:last-child) > .fc-button-group {
+      margin-right: -1px; }
+    .input-group-btn:not(:first-child) > .btn, .fc .input-group-btn:not(:first-child) > button,
+    .input-group-btn:not(:first-child) > .btn-group,
+    .input-group-btn:not(:first-child) > .fc-button-group {
+      z-index: 2;
+      margin-left: -1px; }
+      .input-group-btn:not(:first-child) > .btn:focus, .fc .input-group-btn:not(:first-child) > button:focus, .input-group-btn:not(:first-child) > .btn:active, .fc .input-group-btn:not(:first-child) > button:active, .input-group-btn:not(:first-child) > .btn:hover, .fc .input-group-btn:not(:first-child) > button:hover,
+      .input-group-btn:not(:first-child) > .btn-group:focus,
+      .input-group-btn:not(:first-child) > .fc-button-group:focus,
+      .input-group-btn:not(:first-child) > .btn-group:active,
+      .input-group-btn:not(:first-child) > .fc-button-group:active,
+      .input-group-btn:not(:first-child) > .btn-group:hover,
+      .input-group-btn:not(:first-child) > .fc-button-group:hover {
+        z-index: 3; }
+  
+  .input-group-addon,
+  .input-group-btn {
+    min-width: 40px;
+    white-space: nowrap;
+    vertical-align: middle; }

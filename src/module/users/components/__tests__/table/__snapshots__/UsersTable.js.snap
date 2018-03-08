@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersTable Snapshot of UsersTable 1`] = `
+<div>
+  <Connect(SystemMessageOnUserList) />
+  <Component
+    rightElement={<Connect(HeaderRightActionIcons) />}
+    title="Users"
+  >
+    <Translate(Connect(FetchUsersIfNotExist)) />
+  </Component>
+</div>
+`;

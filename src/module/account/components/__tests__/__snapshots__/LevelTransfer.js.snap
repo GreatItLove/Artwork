@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LevelTransfer Should be same snapshot 1`] = `
+<div
+  className="pt-2"
+>
+  <div
+    className="col-sm-12 py-3"
+  >
+    <div
+      className="row align-items-center"
+    >
+      <div
+        className="col-md-4"
+      >
+        <label>
+          editAccount.transfer
+        </label>
+      </div>
+      <div
+        className="col-md-8"
+      >
+        <RaisedButton
+          backgroundColor="#dddddd"
+          disabled={false}
+          fullWidth={false}
+          label="editAccount.siteAdmin"
+          labelPosition="after"
+          labelStyle={
+            Object {
+              "color": "#000000",
+            }
+          }
+          onClick={[Function]}
+          primary={false}
+          secondary={false}
+        />
+      </div>
+    </div>
+  </div>
+  <CSSTransition
+    appear={true}
+    classNames="fade"
+    in={false}
+    mountOnEnter={true}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="col-sm-12"
+      style={
+        Object {
+          "borderBottom": "1px solid #82b5cb",
+          "borderTop": "1px solid #82b5cb",
+        }
+      }
+    >
+      <div
+        className="row align-items-center"
+      >
+        <div
+          className="col-md-4"
+        />
+        <div
+          className="col-md-8"
+        >
+          <div
+            className="py-3"
+          >
+            Every Artwok Manager has one Site Administrator user with the highest access level. Right now, you are the S.A. This may be transferred away to another level 4 user, but 
+            <b>
+              this cannot be undone.
+            </b>
+          </div>
+          <div>
+            To give full control of your Artwork Manager to a different user choose below:
+          </div>
+          <Field
+            component={[Function]}
+            fullWidth={true}
+            hintText="Select One"
+            id="transferEmail"
+            name="transferEmail"
+          >
+            <MenuItem
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              checked={false}
+              desktop={false}
+              disabled={false}
+              focusState="none"
+              insetChildren={false}
+              primaryText="jawahar.n@mitrahsoft.com"
+              targetOrigin={
+                Object {
+                  "horizontal": "left",
+                  "vertical": "top",
+                }
+              }
+              value={6842}
+            />
+          </Field>
+        </div>
+      </div>
+    </div>
+  </CSSTransition>
+</div>
+`;

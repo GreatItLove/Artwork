@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterNavgition Snapshot of FooterNavgition 1`] = `
+<BottomNavigation
+  style={
+    Object {
+      "backgroundColor": "none",
+    }
+  }
+>
+  <BottomNavigationItem
+    icon={
+      <FontIcon
+        className="material-icons"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        phone
+      </FontIcon>
+    }
+    label="Support"
+  />
+  <BottomNavigationItem
+    icon={
+      <FontIcon
+        className="material-icons"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        library_books
+      </FontIcon>
+    }
+    label="Tutorials"
+  />
+  <BottomNavigationItem
+    icon={
+      <FontIcon
+        className="material-icons"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        view_headline
+      </FontIcon>
+    }
+    label="Terms of Service"
+  />
+</BottomNavigation>
+`;

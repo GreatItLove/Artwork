@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component Shallow snapshot initial state  1`] = `
+<div>
+  <div
+    className="auth-login-wrapper"
+  >
+    <div
+      className="auth-login-fields"
+    >
+      <div
+        className="py-2 d-md-none"
+      />
+      <h4>
+        login.formHeader
+      </h4>
+      <div
+        className="py-2 d-md-none"
+      />
+      <form>
+        <Field
+          autoComplete="new-username"
+          component={[Function]}
+          floatingLabelText="login.emailLabel"
+          fullWidth={true}
+          id="name"
+          name="username"
+        />
+        <Field
+          autoComplete="new-password"
+          component={[Function]}
+          floatingLabelText="login.passwordLabel"
+          id="pass"
+          name="password"
+          type="password"
+        />
+        <Field
+          component={[Function]}
+          floatingLabelText="login.startPageField"
+          fullWidth={true}
+          id="start-page"
+          name="startPage"
+        >
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.home"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.artists"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/artists"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.consignments"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/consignments"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.artwork"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/artwork"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.artworkAddWizard"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/artwork"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.contacts"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/contacts"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.contactsAddWizard"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/contacts"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.websiteSection"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/website"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.exhibitions"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/exhibitions"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.resources"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/resources"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.invoices"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/invoices"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.quickSale"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/quick-sale"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.visitorToday"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/visitor-today"
+          />
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            primaryText="login.startPageOption.surveyResults"
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+            value="/survey-results"
+          />
+        </Field>
+        <div
+          className="pt20"
+        >
+          <Connect(SubmitBtnLoader)
+            label="login.submitBtn"
+          />
+        </div>
+        <div
+          className="pt20 links"
+        >
+          <Link
+            replace={false}
+            to="/forgot-password"
+          >
+            login.forgotPassword
+          </Link>
+          <span>
+            |
+          </span>
+          <a
+            href="http://www.managedartwork.com/Demo.cfm"
+            target="_blanko"
+          >
+            login.register
+          </a>
+        </div>
+      </form>
+      <div
+        className="py-2 d-md-none"
+      />
+    </div>
+  </div>
+</div>
+`;

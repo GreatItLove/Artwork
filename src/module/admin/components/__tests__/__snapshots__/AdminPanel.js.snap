@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin component Shallow snapshot 1`] = `
+<div>
+  <Header />
+  <SidebarMenuRouters />
+</div>
+`;

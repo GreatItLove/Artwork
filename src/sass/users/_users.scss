@@ -1,0 +1,39 @@
+.users {
+  &.lastLoginContainer {
+    border-top: 1px solid #96c1d4;
+    border-bottom: 1px solid #96c1d4;
+    background-color: #eff6f9;
+    color: #1e6291;
+  }
+  &.cancel-link {
+    color: $font-color-brand-orange;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  &.record-count {
+    color: #64A4C6;
+    margin-right: 20px;
+  }
+  &.filter-container {
+    display: flex;
+    margin-top: 5px;
+  }
+  &.show,
+  &.page {
+    top: 8px;
+    position: relative;
+  }
+  &.page {
+    left: -25px;
+  }
+  &.levelTransfer {
+    background-color: #F0F5F8;
+    margin: 0 -20px;
+    padding: 0;
+    overflow: hidden;
+  }
+  &.levelBorder {
+    border-bottom: 2px solid #72ACC5;
+    border-top: 2px solid #72ACC5;
+  }
+}

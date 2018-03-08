@@ -1,0 +1,671 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WebsiteItem Snapshot of WebsiteItem 1`] = `
+<ListItem
+  autoGenerateNestedIndicator={true}
+  containerElement="span"
+  disableKeyboardFocus={false}
+  disabled={false}
+  initiallyOpen={false}
+  innerDivStyle={Object {}}
+  insetChildren={false}
+  leftIcon={
+    <i
+      className="material-icons"
+    >
+      web
+    </i>
+  }
+  nestedItems={
+    Array [
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        innerDivStyle={Object {}}
+        insetChildren={false}
+        nestedItems={
+            Array [
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="About"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Artists Main"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Artists Detail"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Artists Info"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Artwork Detail"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Artwork Shop"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Artwork Inquiry"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Contact Us"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Copyright/Privacy"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Ecommerce"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Events"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Exhibits"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="FAQ Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Home Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Map Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="My Collection Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="News Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Private Viewing Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Resources Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Search Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Services Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Slide Show"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Submissions Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Subscribe Page"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+              ]
+        }
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="Content Management"
+        primaryTogglesNestedList={true}
+        secondaryTextLines={1}
+    />,
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        innerDivStyle={Object {}}
+        insetChildren={false}
+        nestedItems={
+            Array [
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Overview"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Navigation Links"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Style Files (CSS)"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+                <ListItem
+                  autoGenerateNestedIndicator={true}
+                  containerElement="span"
+                  disableKeyboardFocus={false}
+                  disabled={false}
+                  initiallyOpen={false}
+                  innerDivStyle={Object {}}
+                  insetChildren={false}
+                  nestedItems={Array []}
+                  nestedLevel={0}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onNestedListToggle={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  open={null}
+                  primaryText="Design Basics"
+                  primaryTogglesNestedList={false}
+                  secondaryTextLines={1}
+            />,
+              ]
+        }
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="Design Center"
+        primaryTogglesNestedList={true}
+        secondaryTextLines={1}
+    />,
+    ]
+  }
+  nestedLevel={0}
+  onKeyboardFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onNestedListToggle={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  open={null}
+  primaryText="Website"
+  primaryTogglesNestedList={true}
+  secondaryTextLines={1}
+/>
+`;

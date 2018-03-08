@@ -1,0 +1,105 @@
+
+  .search-text-field-icon {
+    background: transparent;
+    border-radius: 0px $border-component-radius $border-component-radius 0px;
+    border-color: $color-brand-blue-light;
+  }
+
+  .search-text-field {
+    border-right: 0px;
+    border-radius: $border-component-radius 0px 0px $border-component-radius;
+  }
+
+  .div-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+    .show-per-page{
+      color: #979797;
+      .page {
+        position: relative;
+        bottom: 20px;
+      }
+    }
+
+ 
+    .filter-hidden {
+      height:0px;
+         -webkit-transition:height, 0.2s linear;
+      -moz-transition: height, 0.2s linear;
+      -ms-transition: height, 0.2s linear;
+      -o-transition: height, 0.2s linear;
+      transition: height, 0.2s linear;
+  }
+.filter-open {
+  -webkit-transition:height, 0.2s linear;
+  -moz-transition: height, 0.2s linear;
+  -ms-transition: height, 0.2s linear;
+  -o-transition: height, 0.2s linear;
+  transition: height, 0.2s linear;
+}
+
+.filter-background {
+  background-color: $color-background-white-blue;
+  padding: $padding-medium;
+  margin: -20px -20px 20px -20px;
+  border-top: 2px solid $color-border-filter;
+  border-bottom: 2px solid $color-border-filter;
+}
+.text-align-right {
+  text-align: right;
+}
+
+.filter-result-text {
+  color: #64A4C6;
+  margin-right: 20px
+}
+
+.clear-filter-text {
+  color: $color-brand-orange;
+  cursor: pointer; 
+}
+
+.filter-item-span {
+  background-color: #DDDDDD;
+  padding: $padding-small;
+  border-radius: $border-component-radius;
+  margin-right: $margin-medium;
+}
+
+.filter-area {
+  padding: 15px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+
+.filter-area-button {
+  background-color: $color-brand-blue;
+  border-radius: 5px;
+}
+
+.filter-area-button-text {
+  text-transform: none;
+}
+
+.filter-settings {
+  margin: $margin-medium 0px
+}
+
+  .aritst-basic-text {
+    color: $font-color-hyperlink;
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  .aritst-basic-contact {
+    color : #123F61;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  .artist-basic-description {
+    color: #8f9082 ;
+    font-size: 0.875rem;
+  }

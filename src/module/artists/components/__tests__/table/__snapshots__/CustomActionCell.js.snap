@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Action Cell Snapshot of CustomActionCell 1`] = `
+<div
+  className="griddle-cell-action"
+>
+  <IconMenu
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+    animated={true}
+    iconButtonElement={
+      <IconButton
+        disableTouchRipple={false}
+        disabled={false}
+        iconStyle={Object {}}
+        tooltipPosition="bottom-center"
+        touch={false}
+      >
+        <NavigationMoreVert />
+      </IconButton>
+    }
+    multiple={false}
+    onClick={[Function]}
+    onItemTouchTap={[Function]}
+    onKeyboardFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onRequestChange={[Function]}
+    open={null}
+    targetOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+    touchTapCloseDelay={200}
+    useLayerForClickAway={false}
+  >
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <FontIcon
+          className="material-icons"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          create
+        </FontIcon>
+      }
+      onClick={[Function]}
+      primaryText="Edit User"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <FontIcon
+          className="material-icons"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          not_interested
+        </FontIcon>
+      }
+      onClick={[Function]}
+      primaryText="Suspend"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <FontIcon
+          className="material-icons"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          lock
+        </FontIcon>
+      }
+      onClick={[Function]}
+      primaryText="Reset password"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <FontIcon
+          className="material-icons"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          delete
+        </FontIcon>
+      }
+      onClick={[Function]}
+      primaryText="Delete"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+  </IconMenu>
+</div>
+`;

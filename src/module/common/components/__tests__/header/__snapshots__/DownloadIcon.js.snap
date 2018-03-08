@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DownloadIcon Snapshot of DownloadIcon 1`] = `
+<FloatingActionButton
+  backgroundColor="#e18927"
+  disabled={false}
+  mini={true}
+  secondary={false}
+  style={
+    Object {
+      "boxShadow": "none",
+      "marginRight": 8,
+    }
+  }
+  zDepth={2}
+>
+  <FontIcon
+    className="material-icons"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    file_download
+  </FontIcon>
+</FloatingActionButton>
+`;

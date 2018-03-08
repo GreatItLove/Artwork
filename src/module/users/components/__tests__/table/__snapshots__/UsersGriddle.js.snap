@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersGriddle Snapshot of without data 1`] = `
+<div>
+  <Griddle
+    components={
+      Object {
+        "Filter": [Function],
+        "NextButton": [Function],
+        "PageDropdown": [Function],
+        "PreviousButton": [Function],
+        "SettingsWrapper": [Function],
+        "Table": [Function],
+      }
+    }
+    data={Array []}
+    events={
+      Object {
+        "onFilter": [Function],
+        "onGetPage": [Function],
+        "onNext": [Function],
+        "onPrevious": [Function],
+      }
+    }
+    pageProperties={
+      Object {
+        "currentPage": 1,
+        "pageSize": undefined,
+        "recordCount": 0,
+      }
+    }
+    styleConfig={
+      Object {
+        "classNames": Object {
+          "Table": "table table-hover",
+        },
+      }
+    }
+  >
+    <RowDefinition>
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="fullName"
+      />
+      <ColumnDefinition
+        id="email"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="lastLogin"
+      />
+      <ColumnDefinition
+        id="userType"
+      />
+      <ColumnDefinition
+        id="userLevel"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="active"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        extraData={
+          Object {
+            "appDispatch": [Function],
+          }
+        }
+        id="userId"
+        title=" "
+      />
+    </RowDefinition>
+  </Griddle>
+  <div
+    className="div-center show-per-page"
+  >
+    <text
+      className="div-center users show"
+    >
+      Show
+    </text>
+     
+    <CustomShowPerPage
+      appDispatch={[Function]}
+      fetchRequest={[Function]}
+      list={Array []}
+      pagination={
+        Object {
+          "currentPage": 1,
+          "totalPages": 1,
+          "totalRecordCount": 0,
+        }
+      }
+      t={[Function]}
+    />
+    <text
+      className="div-center users page"
+    >
+      per Page
+    </text>
+  </div>
+  <Connect(Component) />
+  <Connect(Component) />
+  <Connect(AddUserDialog) />
+  <Connect(EditUserDialog) />
+  <Connect(ResetPasswordDialog) />
+</div>
+`;
+
+exports[`UsersGriddle Snapshot with data 1`] = `
+<div>
+  <Griddle
+    components={
+      Object {
+        "Filter": [Function],
+        "NextButton": [Function],
+        "PageDropdown": [Function],
+        "PreviousButton": [Function],
+        "SettingsWrapper": [Function],
+        "Table": [Function],
+      }
+    }
+    data={
+      Array [
+        Object {
+          "active": true,
+          "email": "demo@artworkmanager.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 6733,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "email": "anuj.gakhar@gmail.com",
+          "fullName": "Anuj Gakhar",
+          "lastLogin": "1505204346",
+          "userId": 6064,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "email": "demogallery@artworkmanager.com",
+          "fullName": "webmaster",
+          "lastLogin": "1505204346",
+          "userId": 9,
+          "userLevel": "4         ",
+          "userType": "Webmaster           ",
+        },
+        Object {
+          "active": true,
+          "email": "ahershey79@yahoo.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 6757,
+          "userLevel": "4         ",
+          "userType": "SA                  ",
+        },
+        Object {
+          "active": true,
+          "email": "hello@managedartwork.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 4975,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "email": "ellen@ellenmalloy.com",
+          "fullName": "Ellen Malloy",
+          "lastLogin": "1505204346",
+          "userId": 6796,
+          "userLevel": "4         ",
+          "userType": "Staff               ",
+        },
+        Object {
+          "active": false,
+          "email": "robin@galleryondivision.com",
+          "fullName": "Robin Cairl",
+          "lastLogin": "1505204346",
+          "userId": 6795,
+          "userLevel": "3         ",
+          "userType": "Gallery             ",
+        },
+        Object {
+          "active": true,
+          "email": "andrew@managedartwork.com",
+          "fullName": "Andrew Hershey",
+          "lastLogin": "1505204346",
+          "userId": 6748,
+          "userLevel": "3         ",
+          "userType": "Gallery             ",
+        },
+        Object {
+          "active": true,
+          "email": "grend500@gmail.com",
+          "fullName": "Yemi",
+          "lastLogin": "1505204346",
+          "userId": 6761,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "email": "rumrunner1@gmail.com",
+          "fullName": "Dan Sweet",
+          "lastLogin": "1505204346",
+          "userId": 5260,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+        Object {
+          "active": true,
+          "email": "karl@managedartwork.com",
+          "fullName": "Karl Wiese",
+          "lastLogin": "1505204346",
+          "userId": 5455,
+          "userLevel": "4         ",
+          "userType": "Support             ",
+        },
+      ]
+    }
+    events={
+      Object {
+        "onFilter": [Function],
+        "onGetPage": [Function],
+        "onNext": [Function],
+        "onPrevious": [Function],
+      }
+    }
+    pageProperties={
+      Object {
+        "currentPage": 1,
+        "pageSize": undefined,
+        "recordCount": 0,
+      }
+    }
+    styleConfig={
+      Object {
+        "classNames": Object {
+          "Table": "table table-hover",
+        },
+      }
+    }
+  >
+    <RowDefinition>
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="fullName"
+      />
+      <ColumnDefinition
+        id="email"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="lastLogin"
+      />
+      <ColumnDefinition
+        id="userType"
+      />
+      <ColumnDefinition
+        id="userLevel"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        id="active"
+      />
+      <ColumnDefinition
+        customComponent={[Function]}
+        extraData={
+          Object {
+            "appDispatch": [Function],
+          }
+        }
+        id="userId"
+        title=" "
+      />
+    </RowDefinition>
+  </Griddle>
+  <div
+    className="div-center show-per-page"
+  >
+    <text
+      className="div-center users show"
+    >
+      Show
+    </text>
+     
+    <CustomShowPerPage
+      appDispatch={[Function]}
+      fetchRequest={[Function]}
+      list={
+        Array [
+          Object {
+            "active": true,
+            "email": "demo@artworkmanager.com",
+            "fullName": "Andrew Hershey",
+            "lastLogin": "1505204346",
+            "userId": 6733,
+            "userLevel": "4         ",
+            "userType": "Support             ",
+          },
+          Object {
+            "active": true,
+            "email": "anuj.gakhar@gmail.com",
+            "fullName": "Anuj Gakhar",
+            "lastLogin": "1505204346",
+            "userId": 6064,
+            "userLevel": "4         ",
+            "userType": "Support             ",
+          },
+          Object {
+            "active": true,
+            "email": "demogallery@artworkmanager.com",
+            "fullName": "webmaster",
+            "lastLogin": "1505204346",
+            "userId": 9,
+            "userLevel": "4         ",
+            "userType": "Webmaster           ",
+          },
+          Object {
+            "active": true,
+            "email": "ahershey79@yahoo.com",
+            "fullName": "Andrew Hershey",
+            "lastLogin": "1505204346",
+            "userId": 6757,
+            "userLevel": "4         ",
+            "userType": "SA                  ",
+          },
+          Object {
+            "active": true,
+            "email": "hello@managedartwork.com",
+            "fullName": "Andrew Hershey",
+            "lastLogin": "1505204346",
+            "userId": 4975,
+            "userLevel": "4         ",
+            "userType": "Support             ",
+          },
+          Object {
+            "active": true,
+            "email": "ellen@ellenmalloy.com",
+            "fullName": "Ellen Malloy",
+            "lastLogin": "1505204346",
+            "userId": 6796,
+            "userLevel": "4         ",
+            "userType": "Staff               ",
+          },
+          Object {
+            "active": false,
+            "email": "robin@galleryondivision.com",
+            "fullName": "Robin Cairl",
+            "lastLogin": "1505204346",
+            "userId": 6795,
+            "userLevel": "3         ",
+            "userType": "Gallery             ",
+          },
+          Object {
+            "active": true,
+            "email": "andrew@managedartwork.com",
+            "fullName": "Andrew Hershey",
+            "lastLogin": "1505204346",
+            "userId": 6748,
+            "userLevel": "3         ",
+            "userType": "Gallery             ",
+          },
+          Object {
+            "active": true,
+            "email": "grend500@gmail.com",
+            "fullName": "Yemi",
+            "lastLogin": "1505204346",
+            "userId": 6761,
+            "userLevel": "4         ",
+            "userType": "Support             ",
+          },
+          Object {
+            "active": true,
+            "email": "rumrunner1@gmail.com",
+            "fullName": "Dan Sweet",
+            "lastLogin": "1505204346",
+            "userId": 5260,
+            "userLevel": "4         ",
+            "userType": "Support             ",
+          },
+          Object {
+            "active": true,
+            "email": "karl@managedartwork.com",
+            "fullName": "Karl Wiese",
+            "lastLogin": "1505204346",
+            "userId": 5455,
+            "userLevel": "4         ",
+            "userType": "Support             ",
+          },
+        ]
+      }
+      pagination={
+        Object {
+          "currentPage": 1,
+          "totalPages": 1,
+          "totalRecordCount": 0,
+        }
+      }
+      t={[Function]}
+    />
+    <text
+      className="div-center users page"
+    >
+      per Page
+    </text>
+  </div>
+  <Connect(Component) />
+  <Connect(Component) />
+  <Connect(AddUserDialog) />
+  <Connect(EditUserDialog) />
+  <Connect(ResetPasswordDialog) />
+</div>
+`;

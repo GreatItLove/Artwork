@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup Should be same snapshot 1`] = `
+<RadioButtonGroup
+  name="somename"
+  onChange={[Function]}
+  style={Object {}}
+/>
+`;

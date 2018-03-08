@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel Snapshot of Panel component 1`] = `
+<div
+  className="readmin-panel"
+>
+  <div
+    className="panel-heading"
+  >
+    <h5 />
+  </div>
+  <div
+    className="panel-body"
+  />
+</div>
+`;
+
+exports[`Panel Snapshot of Panle with right element 1`] = `
+<div
+  className="readmin-panel"
+>
+  <div
+    className="panel-heading"
+  >
+    <h5 />
+    <RightElement />
+  </div>
+  <div
+    className="panel-body"
+  />
+</div>
+`;

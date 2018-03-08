@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderOrganisationName Should be same snapshot 1`] = `
+<h6>
+  Test organisation name
+</h6>
+`;

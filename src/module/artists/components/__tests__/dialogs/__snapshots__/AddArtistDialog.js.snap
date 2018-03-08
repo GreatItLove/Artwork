@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddArtistDialog Snapshot of AddArtistDialog when adding is true 1`] = `
+<Dialog
+  autoDetectWindowHeight={true}
+  autoScrollBodyContent={false}
+  bodyStyle={
+    Object {
+      "overflowY": "unset",
+    }
+  }
+  modal={false}
+  onRequestClose={[Function]}
+  open={true}
+  overlayStyle={
+    Object {
+      "backgroundColor": "#797979",
+      "opacity": "0.8",
+    }
+  }
+  paperProps={
+    Object {
+      "style": Object {
+        "backgroundColor": "none",
+      },
+      "zDepth": 0,
+    }
+  }
+  repositionOnUpdate={true}
+>
+  <Translate(Connect(ReduxForm))
+    closeDialog={[Function]}
+  />
+</Dialog>
+`;
+
+exports[`AddArtistDialog Snapshot of AddUserDialog whan adding is false  1`] = `
+<Dialog
+  autoDetectWindowHeight={true}
+  autoScrollBodyContent={false}
+  bodyStyle={
+    Object {
+      "overflowY": "unset",
+    }
+  }
+  modal={false}
+  onRequestClose={[Function]}
+  open={false}
+  overlayStyle={
+    Object {
+      "backgroundColor": "#797979",
+      "opacity": "0.8",
+    }
+  }
+  paperProps={
+    Object {
+      "style": Object {
+        "backgroundColor": "none",
+      },
+      "zDepth": 0,
+    }
+  }
+  repositionOnUpdate={true}
+/>
+`;

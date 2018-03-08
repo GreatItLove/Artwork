@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Snapshot of Checkbox 1`] = `
+<Checkbox
+  checked={false}
+  disabled={false}
+  labelPosition="right"
+/>
+`;

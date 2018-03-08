@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminRoutes Component Shallow snapshot 1`] = `
+<Switch>
+  <Route
+    exact={true}
+    path="/"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/artists"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/artwork"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/consignments"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/contacts"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/invoices"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/reports"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/marketing"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/website"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/media-library"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/account/edit"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/users"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/users/reset-password/:id"
+    render={[Function]}
+  />
+</Switch>
+`;

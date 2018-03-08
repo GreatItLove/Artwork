@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderRightActionIcons Snapshot of HeaderRightActionIcons 1`] = `
+<div>
+  <MuiComponent />
+  <MuiComponent />
+  <MuiComponent />
+</div>
+`;

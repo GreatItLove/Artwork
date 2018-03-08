@@ -1,0 +1,33 @@
+import React from 'react';
+import classNames from 'classnames';
+
+const Panel = props => {
+  const panelClass = classNames({
+    'readmin-panel': true,
+    'body-text-center': props.center
+  });
+
+  const panelHeadingClassName = classNames({
+    'panel-heading': true,
+    [props.panelHeadingClassName]: props.panelHeadingClassName
+  });
+
+  return (
+    <div className={panelClass}>
+<<<<<<< HEAD
+      <div className={panelHeadingClassName} style = {props.headingStyle}>
+        <h5>
+          {props.title}
+        </h5>
+=======
+      <div className={panelHeadingClassName}>
+        <h5>{props.title}</h5>
+>>>>>>> ee765b68e67b70db7532f3c35235bb2fab6896b4
+        {props.rightElement}
+      </div>
+      <div className="panel-body">{props.children}</div>
+    </div>
+  );
+};
+
+export default Panel;

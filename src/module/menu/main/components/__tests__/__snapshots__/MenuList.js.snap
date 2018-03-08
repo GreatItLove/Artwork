@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuList Component Shallow snapshot 1`] = `
+<List
+  className="nav-menu"
+>
+  <Translate(DashboardItem)
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+  />
+  <div
+    className="menudivider"
+  >
+    <Divider
+      inset={false}
+    />
+  </div>
+  <ArtistsItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+  />
+  <ArtworkItems
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+  />
+  <ConsignmentsItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+    styleChild={
+      Object {
+        "fontSize": "14px",
+        "padding": "12px 13px 12px 40px",
+      }
+    }
+  />
+  <ContactsItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+  />
+  <InvoicesItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+  />
+  <ReportsItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+    styleChild={
+      Object {
+        "fontSize": "14px",
+        "padding": "12px 13px 12px 40px",
+      }
+    }
+  />
+  <MarketingItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+    styleChild={
+      Object {
+        "fontSize": "14px",
+        "padding": "12px 13px 12px 40px",
+      }
+    }
+  />
+  <WebsiteItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+    styleChild={
+      Object {
+        "fontSize": "14px",
+        "padding": "12px 13px 12px 40px",
+      }
+    }
+  />
+  <MediaLibraryItem
+    style={
+      Object {
+        "fontSize": "14px",
+        "padding": "16px 16px 16px 55px",
+      }
+    }
+    styleChild={
+      Object {
+        "fontSize": "14px",
+        "padding": "12px 13px 12px 40px",
+      }
+    }
+  />
+  <div
+    className="menudivider"
+  />
+  <div
+    className="menudivider"
+  />
+</List>
+`;

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarMenuRouters component Shallow snapshot 1`] = `
+<div>
+  <div
+    className="readmin-sidebar"
+  >
+    <HeaderLogoWithMenu
+      toggleMenu={[Function]}
+    />
+    <Drawer
+      className="menu-drawer has-bg"
+      containerClassName="sidebar-initial-color"
+      containerStyle={
+        Object {
+          "backgroundColor": "none",
+        }
+      }
+      disableSwipeToOpen={false}
+      docked={true}
+      open={true}
+      openSecondary={false}
+      swipeAreaWidth={30}
+      width={null}
+      zDepth={2}
+    >
+      <Scrollbars
+        autoHeight={false}
+        autoHeightMax={200}
+        autoHeightMin={0}
+        autoHide={false}
+        autoHideDuration={200}
+        autoHideTimeout={1000}
+        hideTracksWhenNotNeeded={false}
+        renderThumbHorizontal={[Function]}
+        renderThumbVertical={[Function]}
+        renderTrackHorizontal={[Function]}
+        renderTrackVertical={[Function]}
+        renderView={[Function]}
+        tagName="div"
+        thumbMinSize={30}
+        universal={false}
+      >
+        <MenuList />
+      </Scrollbars>
+    </Drawer>
+  </div>
+  <div
+    className="readmin-page-content menu-open"
+  >
+    <AdminRoutes />
+    <Component />
+  </div>
+</div>
+`;
+
+exports[`SidebarMenuRouters component Shallow snapshot with close Drawer 1`] = `
+<div>
+  <div
+    className="readmin-sidebar"
+  >
+    <HeaderLogoWithMenu
+      toggleMenu={[Function]}
+    />
+    <Drawer
+      className="menu-drawer has-bg"
+      containerClassName="sidebar-initial-color"
+      containerStyle={
+        Object {
+          "backgroundColor": "none",
+        }
+      }
+      disableSwipeToOpen={false}
+      docked={true}
+      open={false}
+      openSecondary={false}
+      swipeAreaWidth={30}
+      width={null}
+      zDepth={2}
+    >
+      <Scrollbars
+        autoHeight={false}
+        autoHeightMax={200}
+        autoHeightMin={0}
+        autoHide={false}
+        autoHideDuration={200}
+        autoHideTimeout={1000}
+        hideTracksWhenNotNeeded={false}
+        renderThumbHorizontal={[Function]}
+        renderThumbVertical={[Function]}
+        renderTrackHorizontal={[Function]}
+        renderTrackVertical={[Function]}
+        renderView={[Function]}
+        tagName="div"
+        thumbMinSize={30}
+        universal={false}
+      >
+        <MenuList />
+      </Scrollbars>
+    </Drawer>
+  </div>
+  <div
+    className="readmin-page-content"
+  >
+    <AdminRoutes />
+    <Component />
+  </div>
+</div>
+`;

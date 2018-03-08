@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsItem Snapshot of ContactsItem 1`] = `
+<ListItem
+  autoGenerateNestedIndicator={true}
+  containerElement={
+    <NavLink
+      activeClassName="active"
+      ariaCurrent="true"
+      exact={true}
+      to="/contacts"
+    />
+  }
+  disableKeyboardFocus={false}
+  disabled={false}
+  initiallyOpen={false}
+  innerDivStyle={Object {}}
+  insetChildren={false}
+  leftIcon={
+    <i
+      className="material-icons"
+    >
+      contact_mail
+    </i>
+  }
+  nestedItems={Array []}
+  nestedLevel={0}
+  onKeyboardFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onNestedListToggle={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  open={null}
+  primaryText="Contacts"
+  primaryTogglesNestedList={false}
+  secondaryTextLines={1}
+/>
+`;

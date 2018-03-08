@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuspendUserDialog Snapshot of SuspendUserDialog 1`] = `
+<Dialog
+  autoDetectWindowHeight={true}
+  autoScrollBodyContent={false}
+  bodyStyle={
+    Object {
+      "overflowY": "unset",
+    }
+  }
+  contentStyle={
+    Object {
+      "bottom": "0",
+      "left": "0",
+      "maxWidth": "none",
+      "position": "fixed",
+      "right": "0",
+      "top": "0",
+      "width": "57%",
+    }
+  }
+  modal={false}
+  onRequestClose={[Function]}
+  open={true}
+  overlayStyle={
+    Object {
+      "backgroundColor": "#797979",
+      "opacity": "0.8",
+    }
+  }
+  paperProps={
+    Object {
+      "style": Object {
+        "backgroundColor": "none",
+      },
+      "zDepth": 0,
+    }
+  }
+  repositionOnUpdate={true}
+>
+  <Component
+    actions={
+      <div
+        className="col-sm-12"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-7"
+          />
+          <div
+            className="col-md-2 my-auto"
+          >
+            <span
+              className="users cancel-link"
+              onClick={[Function]}
+            >
+              CANCEL
+            </span>
+          </div>
+          <div
+            className="col-md-3"
+          >
+            <SubmitBtnLoader
+              backgroundColor="#e18927"
+              label="Restore"
+              labelColor="#ffffff"
+              onClick={[Function]}
+              primary={false}
+              style={
+                Object {
+                  "boxShadow": "none",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    }
+    panelHeadingClassName="users-from-panel-heading"
+    rightElement={
+      <CloseIcon
+        closeDialog={[Function]}
+      />
+    }
+    title="Restore user"
+  >
+    <span>
+      Do you really want to restore user?
+    </span>
+  </Component>
+</Dialog>
+`;

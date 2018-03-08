@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderLogoWithMenu component Shallow snapshot 1`] = `
+<div
+  className="an-header"
+>
+  <div
+    className="header-left"
+  >
+    <Link
+      className="brand"
+      replace={false}
+      to="/"
+    >
+      <img
+        alt="Managed ArtWork logo"
+        src="logo-artwork-manager-white.png"
+      />
+    </Link>
+    <FloatingActionButton
+      className="icon-buttons"
+      disabled={false}
+      mini={true}
+      onClick={[Function]}
+      secondary={false}
+      zDepth={2}
+    >
+      <i
+        className="material-icons icon-brand-black"
+      >
+        format_indent_decrease
+      </i>
+    </FloatingActionButton>
+  </div>
+</div>
+`;

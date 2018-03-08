@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Last LoggedIn Cell Snapshot of CustomLastLoggedInCell with value 1`] = `
+<span>
+  February 24, 1970 2:27 AM
+</span>
+`;
+
+exports[`Custom Last LoggedIn Cell Snapshot of CustomLastLoggedInCell without value 1`] = `
+<span>
+  January 01, 1970 5:30 AM
+</span>
+`;

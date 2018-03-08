@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionsButton Snapshop of ActionsButton 1`] = `
+<div>
+  <IconMenu
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    animated={true}
+    iconButtonElement={
+      <IconButton
+        disableTouchRipple={false}
+        disabled={false}
+        iconStyle={Object {}}
+        tooltipPosition="bottom-center"
+        touch={false}
+      >
+        <MuiComponent />
+      </IconButton>
+    }
+    multiple={false}
+    onClick={[Function]}
+    onItemTouchTap={[Function]}
+    onKeyboardFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onRequestChange={[Function]}
+    open={false}
+    style={
+      Object {
+        "zIndex": "1500",
+      }
+    }
+    targetOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+    touchTapCloseDelay={200}
+    useLayerForClickAway={false}
+  >
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          payment
+        </i>
+      }
+      primaryText="Create Invoice"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          color_lens
+        </i>
+      }
+      primaryText="Add Artwork"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          person_add
+        </i>
+      }
+      primaryText="Add Artist"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+    <MenuItem
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      checked={false}
+      desktop={false}
+      disabled={false}
+      focusState="none"
+      insetChildren={false}
+      leftIcon={
+        <i
+          className="material-icons"
+        >
+          note_add
+        </i>
+      }
+      primaryText="Add Contact"
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+    />
+  </IconMenu>
+</div>
+`;

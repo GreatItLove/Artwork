@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaLibraryItem Snapshot of MediaLibraryItem 1`] = `
+<ListItem
+  autoGenerateNestedIndicator={true}
+  containerElement="span"
+  disableKeyboardFocus={false}
+  disabled={false}
+  initiallyOpen={false}
+  innerDivStyle={Object {}}
+  insetChildren={false}
+  leftIcon={
+    <i
+      className="material-icons"
+    >
+      video_library
+    </i>
+  }
+  nestedItems={
+    Array [
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        innerDivStyle={Object {}}
+        insetChildren={false}
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="File Uploader"
+        primaryTogglesNestedList={false}
+        secondaryTextLines={1}
+    />,
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        innerDivStyle={Object {}}
+        insetChildren={false}
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="View"
+        primaryTogglesNestedList={false}
+        secondaryTextLines={1}
+    />,
+    ]
+  }
+  nestedLevel={0}
+  onKeyboardFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onNestedListToggle={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  open={null}
+  primaryText="Media Library"
+  primaryTogglesNestedList={true}
+  secondaryTextLines={1}
+/>
+`;

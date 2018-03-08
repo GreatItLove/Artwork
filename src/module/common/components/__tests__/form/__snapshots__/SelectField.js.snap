@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Field Snapshot of SelectFiled component 1`] = `
+<SelectField
+  autoWidth={false}
+  disabled={false}
+  fullWidth={false}
+  multiple={false}
+  onChange={[Function]}
+/>
+`;

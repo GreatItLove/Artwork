@@ -1,0 +1,68 @@
+.griddle-table-heading {
+  background: $color-bg-brand-grey;
+
+}
+.griddle-table-heading-cell {
+  color: #738da0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.griddle-filter {
+  margin-bottom: $margin-large;
+  border: 1px solid $color-brand-blue-light;
+  border-radius: $border-radius * 2;
+  padding: $padding-base / 1.5;
+  width: 25%;
+  outline: none;
+  color: $color-brand-blue-light;
+  &::placeholder {
+    color: $color-brand-blue-light;
+  }
+}
+
+.griddle-cell {
+  color: darken($color-brand-blue,10%);
+  a {
+    color: lighten($color-brand-blue,30%);
+    font-weight: 500;
+  }
+  .griddle-cell-action {
+      margin-top: ($margin-small * -1) - 2;
+      margin-bottom: ($margin-small * -1) + 2;
+  }
+}
+.griddle-pagination{
+  display: flex;
+  border-radius: $border-radius *2;
+  float: right;
+  position: relative;
+  top: 10px;
+  width: fit-content;
+}
+.griddle-page-select {
+  display: flex;
+  color: $color-brand-grey;
+  .item {
+    padding: $padding-0 $padding-base;
+    border-left: 2px solid $color-brand-grey;
+    cursor: pointer;
+    &.active {
+      color:$color-brand-orange;
+    }
+  }
+  :first-child {
+    border-left: none;
+  }
+}
+
+.griddle-next-button, .griddle-previous-button {
+  height: 36px;
+  margin-right: 5px;
+  cursor: pointer;
+  i {
+    color: $color-brand-grey;
+    position:relative;
+    top: calc(25% - 2px);
+  }
+
+}
